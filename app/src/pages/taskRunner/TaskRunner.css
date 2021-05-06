@@ -1,0 +1,18 @@
+.pf-c-form__group.pf-m-action.task-runner-justify-center > div {
+  justify-content: center;
+}
+
+.label {
+  float: left;
+  width: 10em;
+  margin-right: 1em;
+}
+
+.taskModal.pf-c-modal-box {
+  max-height: calc(100vh - 15rem);
+  min-height: 70%;
+}
+
+.spinner-center {
+  margin: 0 auto;
+}

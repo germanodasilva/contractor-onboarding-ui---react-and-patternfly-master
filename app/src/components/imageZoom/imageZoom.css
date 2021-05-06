@@ -1,0 +1,31 @@
+.react-transform-component {
+  width: unset !important;
+  height: unset !important;
+}
+
+.react-transform-element {
+  width: unset !important;
+  height: unset !important;
+}
+
+.image-zoom {
+  background-color: #eeeeee;
+  border-radius: 2px;
+  padding: 16px;
+}
+
+.zoom-content-wrapper {
+  width: 100%;
+  background-color: white;
+}
+
+.zoom-controls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.zoom-controls button {
+  margin: 8px 8px 0 8px;
+}

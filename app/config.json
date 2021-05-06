@@ -1,0 +1,4 @@
+{
+  "REACT_APP_HOSTNAME": "https://contractor-onboarding-quarkus-con-on-mike.lapthorn-8e403d02da27f23cda259248b817e83d-0000.eu-gb.containers.appdomain.cloud",
+  "REACT_APP_SSO_URL": "https://sso-con-on-mike.lapthorn-8e403d02da27f23cda259248b817e83d-0000.eu-gb.containers.appdomain.cloud/auth"
+}

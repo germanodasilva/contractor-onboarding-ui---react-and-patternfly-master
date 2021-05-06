@@ -1,0 +1,33 @@
+.procedures-color {
+  color: goldenrod;
+}
+
+.proc-bold {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.proc-normal {
+  margin-right: 3em;
+}
+
+.justify-right {
+  justify-self: right;
+}
+
+.start-btn {
+  display: inline-block;
+}
+
+.proc-sub-line {
+  text-align: left;
+  line-height: 1em;
+}
+
+.pf-c-accordion__toggle-icon {
+  line-height: 0;
+}
+
+.spacer {
+  margin-bottom: 8px;
+}

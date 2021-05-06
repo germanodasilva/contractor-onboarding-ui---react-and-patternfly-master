@@ -1,0 +1,27 @@
+.Dashboard-color {
+  color: goldenrod;
+}
+
+.active-qqq:after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 25px;
+  border-color: white transparent transparent;
+  display: block;
+  margin: 10px auto;
+}
+
+.section-padding {
+  padding-bottom: 1;
+}
+
+.navlist-style {
+  margin-bottom: 0;
+}
+
+.horizontal-scroll {
+  padding-left: 10;
+  padding-right: 10;
+}

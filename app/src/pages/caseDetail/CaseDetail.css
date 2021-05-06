@@ -1,0 +1,192 @@
+.casedetail-color {
+  color: sienna;
+}
+
+.pf-c-tab-content,
+.pf-c-tabs__list {
+  background-color: var(--pf-global--BackgroundColor--light-100);
+}
+
+.milestone-wrapper {
+  display: flex;
+}
+
+.task-button {
+  font-size: 80%;
+  margin-top: 0.5em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.milestones-steps {
+  box-sizing: border-box;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.top-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: solid 1px #d2d2d2;
+}
+
+.details-tabs::before {
+  border-width: 0;
+}
+
+.milestones-list {
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  color: #363636;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  position: relative;
+  color: #292e34;
+  height: 46px;
+}
+
+.milestones-item {
+  box-sizing: border-box;
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  color: #363636;
+  line-height: 1;
+  flex: 1 10000 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+
+  /* border-radius: 3px; */
+  display: flex;
+  padding-left: 0;
+
+  /* overflow-y: hidden; */
+  min-width: 0;
+  position: relative;
+  border-top: 1px solid rgb(121, 121, 121);
+  border-bottom: 1px solid rgb(121, 121, 121);
+  background: #ffffff;
+}
+
+.milestones-item:before {
+  display: block;
+  position: absolute;
+  left: -2px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 23px 0 23px 23px;
+  border-color: transparent transparent transparent #ffff;
+  z-index: 13;
+  left: 99%;
+  right: 0;
+}
+
+.milestones-item:after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 23px 0 23px 23px;
+  border-color: transparent transparent transparent rgb(121, 121, 121);
+  left: 100%;
+  z-index: 11;
+}
+
+.milestones-item.achieved {
+  background: #39a5dc;
+}
+
+.milestones-item.achieved .milestone-content {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.milestones-item.active:after {
+  border-left: 16px solid #39a5dc;
+}
+
+.milestones-item.achieved:after {
+  display: block;
+  position: absolute;
+  left: -2px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 23px 0 23px 23px;
+  border-color: transparent transparent transparent #39a5dc;
+  z-index: 15;
+  left: 98%;
+  right: 0;
+}
+
+.milestone-content {
+  color: #292e34;
+  align-self: center;
+  max-height: 38px;
+  padding: 0 0.75rem 0 calc(0.75rem + 16px);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex-shrink: 1;
+}
+
+ul.pf-c-list.root-list {
+  list-style-type: none;
+}
+
+ul.pf-c-list.root-list:first-child {
+  padding-top: 0.5em;
+}
+
+.list-details {
+  padding-bottom: 2em;
+}
+
+.list-details > ul > li {
+  margin-top: 2em;
+}
+
+.list-key {
+  line-height: 0.8;
+}
+
+.list-value {
+  font-weight: 600;
+  margin-left: 1em;
+  line-height: 0.8;
+}
+
+.comments-wrapper {
+  padding: 16px;
+}
+
+.inline-text {
+  display: inline-block;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+ul.pf-c-list.column-list {
+  columns: 2 auto;
+  list-style-type: none;
+}
+
+.sub-list1 {
+  columns: 2 auto;
+}

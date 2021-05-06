@@ -1,0 +1,8 @@
+.cases-color {
+  color: goldenrod;
+}
+
+.card-wrapper {
+  margin: var(--pf-c-page__main-section--PaddingTop) var(--pf-c-page__main-section--PaddingTop) 0
+    var(--pf-c-page__main-section--PaddingTop);
+}

@@ -1,0 +1,35 @@
+.pf-c-page__header {
+  background-color: var(--pf-global--BackgroundColor--dark-100);
+}
+@media screen and (min-width: 992px) {
+  .pf-c-nav {
+    --pf-c-nav__horizontal-list-link--PaddingBottom: 0.5em;
+    --pf-c-nav__horizontal-list-link--PaddingTop: 0.5em;
+  }
+
+  .pf-c-page__header-tools {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+.header-logo {
+  display: inline-flex;
+  width: 100%;
+}
+
+.pf-c-brand {
+  height: 3em;
+  padding: 4px;
+}
+
+.h-title {
+  color: white;
+  font-size: 1.4em;
+  line-height: 2.4em;
+  padding-left: 15px;
+}
+
+.pf-c-page__header-brand-link {
+  text-decoration: none;
+}
